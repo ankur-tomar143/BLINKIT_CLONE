@@ -1,0 +1,264 @@
+/* max-width:- make website responsive it takes width as per device . */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  gap: 20px;
+}
+.headerLeft {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  padding: 10px;
+  border-right: 1px solid #ccc;
+}
+.headerAddress {
+  padding: 10px;
+}
+.headerAddress h3 {
+  font-size: 18px;
+}
+.headerAddress p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.searchBox {
+  border-radius: 15px;
+  flex-grow: 1;
+  display: flex;
+  background-color: #f8f8f8;
+  border: 1px solid #f4f4f4;
+  /* border: 2px solid #e11616; */
+}
+.searchBox button {
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+}
+.searchBox input {
+  flex-grow: 1;
+  border: none;
+  background-color: transparent;
+}
+
+.searchBox input:focus {
+  outline: none;
+}
+
+.headerBtn {
+  display: flex;
+  padding: 15px;
+  margin-right: 40px;
+  gap: 40px;
+}
+.headerBtn button {
+  padding: 18px;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+}
+
+.headerBtn button:last-child {
+  background-color: #54b226;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.bannerSection {
+  max-width: 1280px;
+  margin: 0px auto;
+}
+
+.bannerSection img {
+  width: 100%;
+  /* align-items: stretch;   */
+}
+
+.orderBanner {
+  display: flex;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.orderBannerItem {
+  margin: 1%;
+  flex-basis: 27%;
+}
+
+.orderBannerItem img {
+  width: 100%;
+}
+
+.categorySection {
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.categoryItem {
+  flex-basis: 8%;
+  margin: 1%;
+}
+.categoryItem img {
+  width: 100%;
+}
+
+.headingFirst {
+  max-width: 1280px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+.leftPart {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 18px;
+  /* margin: 2px; */
+}
+.rightPart {
+  font-size: 20px;
+  color: #54b226;
+}
+
+.dairyProduct {
+  max-width: 1256px;
+  margin: auto;
+  display: flex;
+  /* overflow: scroll; */
+  /* margin-left: 1%; */
+  /* flex-direction: column; */
+  /* border: 2px solid black; */
+}
+
+.dairyProductItem {
+  flex-basis: 14.5%;
+  border: 2px solid rgb(237, 235, 235);
+  margin: 1%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.itemBuy {
+  display: flex;
+  /* gap: 50px; */
+  justify-content: space-between;
+  align-items: center;
+}
+.dairyProductItem button {
+  font-size: 18px;
+  width: 66px;
+  margin: 10px;
+  border-radius: 5px;
+  border-color: #54b226;
+  background-color: #f0f9ec;
+  color: #54b226;
+}
+.itemName h4 {
+  padding-top: 5px;
+}
+.dairyProductItem img {
+  width: 140px;
+  height: 140px;
+}
+.itemTime {
+  width: 55.5px;
+  height: 15px;
+  /* border: 1px solid black; */
+  background-color: #efefef;
+}
+.itemTime p {
+  font-size: 12px;
+  font-weight: bold;
+}
+.itemWeight p {
+  padding-top: 10px;
+}
+
+.headingFirst {
+  margin-top: 30px;
+}
+
+/* -----------------Footer Part ---------- */
+
+footer {
+  max-width: 1250px;
+  /* margin: ; */
+  /* border: 2px solid black; */
+  /* padding-left: 16px; */
+  margin: 20px auto 40p; 
+  /* padding-right: 16px; */
+}
+
+.firstFooter {
+  display: flex;
+  margin-left: 75px;
+}
+
+.firstLeft {
+  max-width: 380px;
+  margin: 2%;
+}
+.firstLeft h3 {
+  margin-left: -28px;
+  margin: 24px;
+  font-size: 18px;
+}
+
+.firstRight {
+  max-width: 870px;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+.list {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.list ul li {
+  list-style-type: none;
+  padding: 10px;
+  color: #ccc;
+  font-weight: bold;
+}
+
+.list ul {
+  padding: 20px;
+}
+
+.textContent {
+  display: flex;
+  gap: 40px;
+  margin: 24px;
+  font-size: 18px;
+}
+
+/* ---------------second Footer-------- */
+
+.secondFooter{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 75px;
+}
+
+.secondFooter p{
+  color: #ccc;
+}
+.footerImg{
+  display: flex;
+  gap: 10px;
+  margin-left: 40px;
+  margin-bottom: 5px;
+}
